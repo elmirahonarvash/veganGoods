@@ -5,6 +5,8 @@ import {MatRadioModule} from '@angular/material/radio';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
 
 
 
@@ -17,9 +19,11 @@ import {MatIconModule} from '@angular/material/icon';
     MatRadioModule,
     MatSidenavModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    MatFormFieldModule,
+    MatInputModule
 
   ],
-  exports: [MatButtonModule, MatRadioModule, MatSidenavModule, MatToolbarModule, MatIconModule]
+  exports: [MatButtonModule, MatRadioModule, MatSidenavModule, MatToolbarModule, MatIconModule, MatFormFieldModule, MatInputModule]
 })
 export class MateralModule { }
