@@ -7,21 +7,28 @@ import { ProductsComponent } from './products/products.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { MateralModule } from './materal/materal.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { FlexLayoutModule } from '@angular/flex-layout';
+import { SignupComponent } from './signup/signup.component';
+import { ReactiveFormsModule } from '@angular/forms';
+
+
+
+
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductsComponent,
     WelcomeComponent,
-    FlexLayoutModule
+    SignupComponent,
+
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MateralModule,
     BrowserAnimationsModule,
-    FlexLayoutModule
+    ReactiveFormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]

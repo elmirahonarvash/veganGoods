@@ -1,24 +1,27 @@
 <mat-sidenav-container class="example-container">
     <mat-sidenav mode="side" #sidenav>Sidenav content</mat-sidenav>
     <mat-sidenav-content>
-        <mat-toolbar color=primary>
+        <mat-toolbar color="primary">
             <button mat-icon-button (click)="sidenav.toggle()">
                 <mat-icon aria-hidden="false" aria-label="Example home icon">menu</mat-icon>
             </button>
 
             <div>
-                <ul>
+                <ul >
                     <li>
-                        <a routerLink="products">products</a>
+                        <a routerLink="products" fxLayoutAlign>products</a>
                     </li>
                     <li>
                         <a routerLink="welcome">welcome</a>
+                    </li>
+                    <li>
+                        <a routerLink="signup">signup</a>
                     </li>
                 </ul>
             </div>
         </mat-toolbar>
     </mat-sidenav-content>
+    <router-outlet></router-outlet>
 </mat-sidenav-container>
 
 
-<router-outlet></router-outlet>

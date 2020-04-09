@@ -3,3 +3,11 @@ a{
     color: white;
 }
 
+mat-sidenav-container, mat-sidenav, mat-sidenav-content{
+    height: 100%;
+    
+}
+mat-sidenav{
+    width:25rem;
+    background-color: yellow;
+}
