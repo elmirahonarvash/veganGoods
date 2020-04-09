@@ -7,21 +7,22 @@
             </button>
 
             <div>
-                <ul >
+                <ul fxLayout="row" fxLayoutGap="4rem">
                     <li>
-                        <a routerLink="products" fxLayoutAlign>products</a>
+                        <a routerLink="welcome" >Home</a>
                     </li>
                     <li>
-                        <a routerLink="welcome">welcome</a>
+                        <a routerLink="products">Products</a>
                     </li>
                     <li>
-                        <a routerLink="signup">signup</a>
+                        <a routerLink="signup">Signup</a>
                     </li>
                 </ul>
             </div>
         </mat-toolbar>
+        <router-outlet></router-outlet>
     </mat-sidenav-content>
-    <router-outlet></router-outlet>
+    
 </mat-sidenav-container>
 
 

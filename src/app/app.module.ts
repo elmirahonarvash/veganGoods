@@ -7,10 +7,8 @@ import { ProductsComponent } from './products/products.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { MateralModule } from './materal/materal.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { SignupComponent } from './signup/signup.component';
+import { FlexLayoutModule } from '@angular/flex-layout';
 import { ReactiveFormsModule } from '@angular/forms';
-
-
 
 
 
@@ -19,7 +17,6 @@ import { ReactiveFormsModule } from '@angular/forms';
     AppComponent,
     ProductsComponent,
     WelcomeComponent,
-    SignupComponent,
 
   ],
   imports: [
@@ -27,8 +24,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     AppRoutingModule,
     MateralModule,
     BrowserAnimationsModule,
+    FlexLayoutModule,
     ReactiveFormsModule
-
   ],
   providers: [],
   bootstrap: [AppComponent]
