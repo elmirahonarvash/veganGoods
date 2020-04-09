@@ -7,18 +7,21 @@ import { ProductsComponent } from './products/products.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { MateralModule } from './materal/materal.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProductsComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    FlexLayoutModule
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     MateralModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
